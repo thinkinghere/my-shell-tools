@@ -51,9 +51,9 @@ mongod -h 查看帮助信息,主要需要一下的参数：
 
 ## aio-transport
 
-命令行端口转发工具
+### 命令行端口转发工具
 
-### 
+
 使用
 ```shell
 python portforward -s httpbin.org
@@ -62,7 +62,7 @@ python portforward -s httpbin.org
 测试
 
 ```shell
-使用http进行请求：
+使用http/curl进行请求：
 ➜  ~ http http://localhost:8888/get
 HTTP/1.1 200 OK
 Access-Control-Allow-Credentials: true
